@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { ArrowDown } from "lucide-react";
-
+import pic from "../assets/final pic.png"
 function Home() {
   return (
     <section
@@ -86,7 +86,7 @@ function Home() {
           transition={{ type: "spring", stiffness: 120, damping: 10 }}
         >
           <img
-            src="public/final pic.png"
+            src={pic}
             alt="Ajay Chaudhary"
             className="relative w-full h-full object-cover rounded-full"
           />
