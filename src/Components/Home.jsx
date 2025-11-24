@@ -86,7 +86,7 @@ function Home() {
           transition={{ type: "spring", stiffness: 120, damping: 10 }}
         >
           <img
-            src="/final pic.png"
+            src="public/final pic.png"
             alt="Ajay Chaudhary"
             className="relative w-full h-full object-cover rounded-full"
           />
