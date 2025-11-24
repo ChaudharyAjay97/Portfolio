@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { ArrowDown } from "lucide-react";
 import pic from "../assets/final pic.png"
+
 function Home() {
   return (
     <section
