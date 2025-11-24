@@ -9,7 +9,7 @@ const projects = [
     title: "Farm Fresh E-commerce",
     description:
       "A full-stack e-commerce website built with React, Node.js, Express, and MongoDB. Users can browse products, add to cart, and checkout securely.",
-    image: fresh,
+    image: {fresh},
     link: "#",
   },
   {
@@ -24,7 +24,7 @@ const projects = [
     title: "Online Auction System",
     description:
       "A MERN stack-based online auction platform where users can list products, place live bids, and track real-time bidding updates using Socket.io.",
-    image: auc,
+    image: {auc},
     link: "#",
   },
 ];
